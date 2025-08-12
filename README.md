@@ -22,8 +22,8 @@
 
 1. 克隆项目到本地
    ```bash
-   git clone <>
-   cd <>
+   git clone https://github.com/limmcneil/ragflow_practicing.git
+   cd ragflow_practicing
    ```
 
 2. 安装依赖包
@@ -42,16 +42,7 @@
    - 右键"此电脑"→"属性"→"高级系统设置"→"性能"→"高级"→"虚拟内存"
    - 建议设置为物理内存的1.5-3倍（如16GB物理内存→24-48GB虚拟内存）
 
-## 项目结构
-./
-├── data/                 # 医疗数据集存储目录
-├── models/               # 模型存储目录
-│   ├── bge-small-zh-v1.5/  # 中文嵌入模型
-│   └── CareBot_Medical/   # 医疗专用问答模型
-├── chroma_data/          # 向量数据库存储目录
-├── document_processer.py # 数据处理脚本（构建向量库）
-├── qa_system.py          # 问答系统主程序
-└── README.md             # 项目说明文档
+
 ## 使用方法
 
 ### 1. 预处理数据（首次运行必需）
